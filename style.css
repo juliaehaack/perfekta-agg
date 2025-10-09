@@ -1,0 +1,70 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    background-color: #F5DAA7;
+    color: #deab4a;
+    margin-top: auto;
+}
+
+h1 {
+ font-size: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* avstånd mellan knappar */
+    flex-wrap: wrap; /* radbrytning på små skärmar */
+}
+
+button {
+    font-family: 'Permanent Marker', cursive;
+    color: #F5AD18;
+    background-color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 150px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 40px;
+    transition: 0.2s;
+
+    /* Smal topp, rundare botten */
+    border-radius: 60% 60% 50% 50% / 60% 60% 50% 50%;
+
+    /* centrera text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: #ffeb3b;
+}
+
+.instructions {
+    font-family: "American Typewriter", cursive;
+    font-size: 1.2rem;
+    background-color: #fff3cd;
+    border: 2px solid #f9d71c;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 0 auto 30px auto;  /* centrerar hela rutan */
+    width: fit-content;        /* gör så att bredden anpassas till innehållet */
+    color: #4e342e;
+    text-align: left;          /* texten inuti blir vänsterställd */
+    line-height: 1.6;
+}
+.small-text {
+    font-size: 0.9rem; /* mindre än resten av texten */
+    color: #4e342e;
+}
+
+#display {
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
